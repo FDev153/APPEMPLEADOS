@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%; /* Asegura que el body ocupe todo el alto de la pantalla */
+  width: 100%;
+}
+
+.App {
+  align-items: center; /* Centrar verticalmente */
+  background-color:  #282c34; /* Fondo oscuro */
+  display: flex; /* Activa Flexbox */
+  justify-content: center; /* Centrar horizontalmente */
+  height: 100vh; /* Asegura que ocupe toda la pantalla */
+  width: 100vw; /* Asegura que ocupe todo el ancho */
+
+}
+
+.login-container {
+  display: flex; /* Activar Flexbox */
+  flex-direction: column; /* Organiza el contenido en una columna */
+  justify-content: center; /* Centra verticalmente el contenido dentro */
+  align-items: center; /* Centra horizontalmente el contenido */
+
+  background-color: #e4e4e4; /* Fondo claro */
+  padding: 80px 40px; /* Espaciado interno */
+  border-radius: 15px; /* Bordes redondeados */
+  text-align: center; /* Centra el texto dentro */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para dar profundidad */
+  min-width: 350px; /* Ancho mínimo */
+}
+
+.logo {
+  width: 80px; /* Tamaño del logo */
+  margin-bottom: 20px; /* Espaciado debajo del logo */
+}
+
+h1 {
+  font-size: 18px; /* Tamaño del texto */
+  margin-bottom: 20px; /* Espaciado debajo del título */
+  color: #000; /* Color del texto */
+  font-family: Arial, sans-serif; /* Fuente */
+}
+
+.buttons {
+  display: flex; /* Flexbox para organizar los botones */
+  flex-direction: column; /* Apila los botones en columna */
+  gap: 10px; /* Espaciado entre botones */
+}
+
+.login-button {
+  background-color: #000; /* Fondo del botón */
+  color: #fff; /* Color del texto */
+  border: none; /* Sin bordes */
+  padding: 10px; /* Espaciado interno */
+  font-size: 16px; /* Tamaño del texto */
+  font-weight: bold; /* Negrita */
+  border-radius: 5px; /* Bordes redondeados */
+  cursor: pointer; /* Cursor en forma de mano */
+  font-family: Arial, sans-serif; /* Fuente */
+  min-width: 300px; /* Ancho mínimo */
+}
+
+.login-button:hover {
+  background-color: #444; /* Cambio de color al pasar el cursor */
+}
