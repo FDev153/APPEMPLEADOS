@@ -32,5 +32,4 @@ jobs:
 
     - name: Run tests
       run: |
-        sudo chmod -R 755 node_modules/.bin  # Dar permisos de ejecución a los scripts
         npm test
