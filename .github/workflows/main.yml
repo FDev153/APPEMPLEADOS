@@ -3,10 +3,10 @@ me: Run Tests
 on:
   push:
     branches:
-      - main  # Ejecutar al hacer push a la rama main
+      - master  # Ejecutar al hacer push a la rama main
   pull_request:
     branches:
-      - main  # Ejecutar en solicitudes de pull
+      - master  # Ejecutar en solicitudes de pull
 
 jobs:
   test:
