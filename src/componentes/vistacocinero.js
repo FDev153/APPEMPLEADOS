@@ -1,3 +1,4 @@
+//Vista que tendra el empleado tipo cocinero
 import React, { useState } from 'react';
 import { Card, CardBody, CardTitle, CardText } from 'reactstrap';
 import { Link } from 'react-router-dom';
@@ -14,6 +15,7 @@ const VistaCocinero = ({ pedidos, actualizarEstado }) => {
     }
   }
 
+  //Manejo los pedidos correspondientes
   const renderPedidos = (estado) =>
     pedidos
       .filter((pedido) => pedido.estado === estado)

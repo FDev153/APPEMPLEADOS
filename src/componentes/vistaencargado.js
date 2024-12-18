@@ -1,3 +1,4 @@
+//Vista que tendra el empleado tipo encargado
 import React, { useState } from 'react';
 import { Card, CardBody, CardTitle, CardText, CardSubtitle } from 'reactstrap';
 import { Link } from 'react-router-dom';
@@ -15,7 +16,7 @@ const VistaEncargado = ({ pedidos, actualizarEstado }) => {
         }
     }
 
-
+    //Manejo los pedidos correspondientes
     const renderPedidos = (estado) =>
         pedidos
             .filter(

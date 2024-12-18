@@ -1,7 +1,6 @@
+//Login de la aplicacion donde podras elegir la vista de cada usuario
 import { Link } from 'react-router-dom';
 import '../App.css';
-
-
 
 function Login() {
   
